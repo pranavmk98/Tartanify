@@ -1,11 +1,11 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 1,
 
-	"name": "Millennials to Snake People",
-    "short_name": "Snake People",
-	"description": "Replaces the text 'Millennial' with 'Snake People'.",
-	"author": "Eric Bailey",
-	"version": "2.0",
+	"name": "Tartanify",
+    "short_name": "Tartanify",
+	"description": "Replaces text with CMU-relevant text",
+	"author": "Pranav Kumar and Sayan Chaudhry",
+	"version": "1.0",
 
 	"icons": {
 		"16": "icon16.png",
