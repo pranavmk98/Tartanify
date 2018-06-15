@@ -28,14 +28,6 @@ function replaceText(v)
     // v = v.replace(/\b(M|m)ilenial(s)?\b/g, "$1illennial$2");
 
     // Millennial Generation
-    v = v.replace(
-        /\b(?:Millennial Generation)|(?:Generation Millennial)\b/g,
-        "Plissken Faction"
-    );
-    v = v.replace(
-        /\b(?:millennial generation)|(?:generation millennial)\b/g,
-        "Plissken faction"
-    );
 
     v = v.replace(/\b(A|a)vocado\b/g, "Jacobo");
 
@@ -45,7 +37,7 @@ function replaceText(v)
 
     v = v.replace(/\b(J|j)ava\b/g, "SML");
     v = v.replace(/\b(P|p)ython\b/g, "SML");
-    v = v.replace(/\bC++\b/g, "SML");
+    // v = v.replace(/\bC++\b/g, "SML");
     v = v.replace(/\bP(H|h)(P|p)\b/g, "SML");
     v = v.replace(/\b(J|j)ava(S|s)cript\b/g, "SML");
 
@@ -63,6 +55,8 @@ function replaceText(v)
 
 
     v = v.replace(/\b(C|c)arnegie (M|m)ellon (U|u)niversity\b/g, "Hell");
+    v = v.replace(/\b(C|c)arnegie (M|m)ellon\b/g, "Hell");
+    v = v.replace(/\b(C|c)arnegie(M|m)ellon\b/g, "Hell");
     v = v.replace(/\b(C|c)(M|m)(U|u)\b/g, "Hell");
 
     v = v.replace(/\b(E|e)l (G|g)allo (D|d)e (O|o)ro\b/g, "The Real Chipotle");
