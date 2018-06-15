@@ -36,10 +36,10 @@ function replaceText(v)
     v = v.replace(/\b(C|c)hipotle\b/g, "El Gallo De Oro");
 
     v = v.replace(/\b(J|j)ava\b/g, "SML");
-    v = v.replace(/\b(P|p)ython\b/g, "SML");
+    v = v.replace(/\b(P|p)ython\b/g, "C0");
     // v = v.replace(/\bC++\b/g, "SML");
     v = v.replace(/\bP(H|h)(P|p)\b/g, "SML");
-    v = v.replace(/\b(J|j)ava(S|s)cript\b/g, "SML");
+    v = v.replace(/\b(J|j)ava(S|s)cript\b/g, "C0");
 
     v = v.replace(/\b(W|w)i(F|f)i\b/g, "CMU-SECURE");
 
