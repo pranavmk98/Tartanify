@@ -59,8 +59,6 @@ function replaceText(v)
     v = v.replace(/\b(C|c)arnegie(M|m)ellon\b/g, "Hell");
     v = v.replace(/\b(C|c)(M|m)(U|u)\b/g, "Hell");
 
-    v = v.replace(/\b(E|e)l (G|g)allo (D|d)e (O|o)ro\b/g, "The Real Chipotle");
-
     // v = v.replace(/\b(D|d)oslingos\b/g, "Duolingo");
 
     return v;
